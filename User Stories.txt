@@ -1,0 +1,5 @@
+As a job seeker, I want to search listings of open positions with the business to work in my field of study.
+
+As a consumer of food items, I want to research what varieties of food and drink items are available for purchase at the business. I also want to find the hours of operation and location of the business.
+
+As a vendor, I want to find contact information for the owner/manager of the business, the business type, location, and hours of operation of the business to make a sales contact for future business interactions.
