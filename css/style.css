@@ -1,0 +1,33 @@
+/* Base Style*/
+body,head,footer,nav    {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: medium;
+    color: saddlebrown;
+}
+logo {
+    justify-content: left;
+}
+h1,h2,h3 {
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    font-size: small;
+    text-align: center;
+}
+
+/* Container and Columns */
+.container {
+    -ms-flex-align: center;
+}
+
+/* Button */
+.btn-success {
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+}
+.btn-success:hover {
+    background-color: deepskyblue;
+    border-color: deepskyblue;
+}
