@@ -15,7 +15,7 @@
 <body>
     <header class = "main-header">
         <img src = "images/logo.jpg" alt="Business Logo image Description" height="250px" width="250px" />
-        <h1 id = "Page-Name">Contact Us</h1>
+        <h1 class = "Page-Name">Contact Us</h1>
         <nav class = "nav">
               <a href = "/index.html">HOME</a>
               <a href = "/menu.html">MENU</a>
@@ -24,7 +24,7 @@
         </nav>
       </header>
     <div class = "form">
-        <h3>We'd Love To Hear From You</h3>
+        <h3 class="content-header">We'd Love To Hear From You</h3>
         <form action="/contact.html" method="get">
             <label>Name:
                 <input type="text" name="Name" id="Name" required>
@@ -44,17 +44,18 @@
         </form>
     </div>
 </body>
-<FOOTER>
-    <DIV>
-        <p>Created by: J. Brashear</p>
-        <p>
-            <a href = "mailto:jeremy.brashear@hotmail.com">Email Us</a>
-        </p>
-    </DIV>
-    <DIV>
-    <p>BUSINESS_NAME</p>
-    <p>1234 MAIN ST Anytown,USE</p>
-    <p>(555) 555 - 2424</p>
+<FOOTER class = "footer">
+    <DIV class ="container footer-container">
+        <ul>
+        <li>Created by: J. Brashear</li>
+        <li><a href = "mailto:jeremy.brashear@hotmail.com">Email Us</a></li>
+        </ul>
+    
+    <ul>
+    <li class = business-name>BUSINESS_NAME</li>
+    <li>1234 MAIN ST Anytown,USE</li>
+    <li>(555) 555 - 2424</li>
+    </ul>
     </DIV>
 </FOOTER>
 </html>

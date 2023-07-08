@@ -7,7 +7,7 @@
 .main-header{
     background-image: url(../images/background1.jpg);
     background-size: cover;
-    opacity: 50%;
+    opacity: 75%;
     padding-bottom: 30px;
     text-align: center;
     
@@ -29,23 +29,27 @@
     background-color: bisque;
 }
 
-.Page-name {
+.Page-Name {
     text-align: center;
     margin: 0;
-    font-size: 9em;
-    font-family: cursive;
+    font-size: 7em;
+    
+}
+.Business-Name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    
 }
 /* Base Style*/
 html,body    {
     margin: 0;
     padding: 0;
-    
     font-size: medium;
     color: saddlebrown;
 }
 
-
-/* Container and Columns */
+/* Content - Containers and Columns */
 .content {
     margin: 1em;
 }
@@ -54,6 +58,39 @@ html,body    {
     margin: 0 auto;
     padding: 0 1.5em;
 }
+
+.content-header{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+}
+.content-image{
+    float: left;
+    margin: 12px;
+    border-radius: 50%;
+}
+
+/* Footer */
+.footer{
+    background-color: saddlebrown;
+    color: bisque;
+    padding: .25em 0;
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-container li {
+    padding: 0 .5em;
+    list-style-type: none;
+}
+
 /* Button */
 .btn-success {
     background-color: dodgerblue;
