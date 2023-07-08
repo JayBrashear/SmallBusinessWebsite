@@ -1,27 +1,59 @@
+/* All Styling */
+* {box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif ;
+}
+/* Navigation Style*/
+
+.main-header{
+    background-image: url(../images/background1.jpg);
+    background-size: cover;
+    opacity: 50%;
+    padding-bottom: 30px;
+    text-align: center;
+    
+}
+
+.main-header a{
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: lighter;
+}
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    background-color: bisque;
+}
+
+.Page-name {
+    text-align: center;
+    margin: 0;
+    font-size: 9em;
+    font-family: cursive;
+}
 /* Base Style*/
-body,head,footer,nav    {
-    font-family: Arial, Helvetica, sans-serif ;
+html,body    {
+    margin: 0;
+    padding: 0;
+    
     font-size: medium;
     color: saddlebrown;
 }
-logo {
-    justify-content: left;
-}
-h1,h2,h3 {
-    font-size: larger;
-    font-weight: bold;
-    text-align: center;
-}
-p {
-    font-size: small;
-    text-align: center;
-}
+
 
 /* Container and Columns */
-.container {
-    -ms-flex-align: center;
+.content {
+    margin: 1em;
 }
-
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
 /* Button */
 .btn-success {
     background-color: dodgerblue;
