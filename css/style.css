@@ -19,7 +19,7 @@ html,body    {
     opacity: 75%;
     padding-bottom: 30px;
     text-align: center;
-    
+       
 }
 
 .main-header a{
@@ -100,33 +100,7 @@ html,body    {
     background-size: cover;
     
 }
-.table-container{
-    display: flex;
-    align-items: center;
-    margin: 1em 1em;
-    padding: .5em;
-    
-}
 
-.table-box {
-    display: -ms-inline-grid;
-    border: solid saddlebrown;
-    padding: 1em;
-    margin: 1em;
-}
-
-.table-container ul {
-    flex-grow: 1;
-    text-align: center;
-}
-.table-container li {
-    padding: 0 .5em;
-    list-style-type: none;
-}
-
-.table-box a {
-    text-decoration: none;
-}
 
 
 /* Footer */
@@ -156,17 +130,6 @@ html,body    {
     text-decoration: none;
 }
 
-/* Button */
-.btn-success {
-    background-color: dodgerblue;
-    border-color: dodgerblue;
-    
-}
-.btn-success:hover {
-    background-color: deepskyblue;
-    border-color: deepskyblue;
-    cursor:pointer
-}
 
 /* Grid layout for index information*/
 .wrapper {
@@ -227,3 +190,36 @@ html,body    {
     grid-row: 1 / 7;
 
   }
+  
+  /* Form - Contact Us Page */
+  .form {
+    display: block;
+    align-items: center;  
+  }
+  .form.container{
+    max-width: 400px;
+    margin: 1.5em auto;
+    padding: 0 1.5em;
+    
+}
+  form{
+    margin: 1.5em;
+    padding: .5em;
+    border: .5em;
+    border-color: saddlebrown;
+    
+  }
+ 
+  /* Button */
+button {
+    background-color: saddlebrown;
+    border-color: blanchedalmond;
+    color: bisque;
+    
+}
+button:hover {
+    background-color: bisque;
+    border-color: blanchedalmond;
+    color: saddlebrown;
+    cursor:pointer
+}
