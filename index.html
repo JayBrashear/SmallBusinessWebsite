@@ -23,7 +23,7 @@
     </nav>
   </header>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <!--  <div id="carouselExampleFade" class="carousel slide carousel-fade">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="./images/carousel1.jpg" class="d-block w-100" alt="cup of coffee with foam art">
@@ -36,9 +36,9 @@
           </div>
           <div class="carousel-item">
             <img src="./images/carousel4.jpg" class="d-block w-100" alt="buffet table with various desserts">
-          </div>
+    </div>
           
-        </div>
+    </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -47,31 +47,34 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div> 
-      <div id = "Business Details" >
-        <section id="Location"class = "content container"> 
-          <h3>Location</h3>  
+    </div>
+  --> 
+      <!-- Start grid for business owner info -->
+    <div id = "Business Details" class = "wrapper" >
+        <section id="Location"class = "box a">           
+          <h3 >Location</h3>  
           <ul>
               <li>1234 Main St.  </li>
               <li>Anytown,US</li>
               <li>(555 555 -2424)</li>
           </ul>
         </section>
-        <section id = "Parking Information"class = "content container">
+      <div class = "box b">
+         <section id = "Parking Information">
               <h3>Parking Info</h3>
               <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
               A dipisci esse ipsa eius, 
               doloribus nobis sit dolores nam provident 
-              obcaecati neque magni facilis minus? Veritatis, sed!
+              obcaecati neque magni facilis minus, sed!
             </p>
             </section>
+      </div>
+      <div class = "box d">
+            
         </div>
-        <div> 
-            <section></section>
-        </div>
-        <div id="Business Details"> 
-          <section id="Hours of Operation"class = "content container">
+      <div id="Business Details" class = "box c"> 
+          <section id="Hours of Operation">
             <h3>Hours</h3>
             <ul>
               <li>SUN 9AM - 1PM</li>
@@ -83,10 +86,11 @@
               <li>SAT 9AM - 11PM</li>
             </ul>
           </section>
-      </div>
-     <DIV ID = "Owner Details">
+        </div>
+
+     <DIV ID = "Owner Details" class = "box e">
       <h3 class="content-header">About Us</h3>
-      <section id = "About Us"class = "content container">
+      <section id = "About Us">
         <img class="content-image"  src="./images/aboutus2.jpg" alt="group of four cooks standing" height="200px" width="200px">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque est quos, quis tenetur 
@@ -102,7 +106,10 @@
            laudantium est harum perferendis dolorum provident.
         </p>
       </section>
-     </DIV> 
+     </DIV>
+    </div> 
+      <!-- End grid for business owner info -->
+
 </body>
 <FOOTER class = "footer">
   <DIV class ="container footer-container">
